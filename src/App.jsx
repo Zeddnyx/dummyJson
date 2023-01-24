@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 function App() {
   const [datas, setDatas] = useState([])
-  const [cari, setCari] = useState('')
+  const [cari, setCari] = useState()
   const [load, setLoad] = useState(false)
 
 
