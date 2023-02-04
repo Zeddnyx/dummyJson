@@ -41,7 +41,7 @@ function App() {
 
   return <div className='relative mx-auto max-w-sm'>
     <Nav />
-    <div className='flex my-5'>
+    <div className='flex mx-auto my-5 '>
       <input type="text"
         className={input} value={cari} 
         onChange={ e => setCari(e.target.value) } 
@@ -53,7 +53,7 @@ function App() {
 }
 export default App
 
-const input = 'border-2 border-black outline-none pl-2'
-const btn = 'bg-black text-white px-5 hover:bg-gray-700 outline-none'
+const input = 'mx-auto border-2 border-black outline-none pl-2'
+const btn = 'mx-auto bg-black text-white px-5 hover:bg-gray-700 outline-none'
 
 const logic = 'text-center my-20'
